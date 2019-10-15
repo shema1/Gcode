@@ -1,5 +1,8 @@
 [data-description="anchors"] {
     background-color: grey;
+}
+
+[data-description] {
     font-size: 24px;
 }
 
