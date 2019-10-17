@@ -15,6 +15,6 @@
   }
   
   .third {
-      border-bottom: 2px solid green;
+      text-decoration: green underline;
       display: inline;
   }
