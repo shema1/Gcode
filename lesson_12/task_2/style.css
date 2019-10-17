@@ -2,27 +2,25 @@
     box-sizing: border-box;
 }
 
-.articles {
-    display: flex;
+body {
+    font-family: Verdana;
 }
 
-.articles div {
-    background-color: beige;
-    height: 100px;
-    width: 150px;
-    margin: 16px;
-}
-
-.cropped {
+h1 {
+    font-size: 74px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 50%;
+    margin: 0 auto;
     overflow: hidden;
 }
 
-.both-scrolls {
-    overflow: scroll scroll;
-    cursor: all-scroll;
-}
-
-.vertical-scroll {
-    overflow: auto;
-    cursor: all-scroll;
+div {
+    background-color: coral;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    text-transform: uppercase;
 }
