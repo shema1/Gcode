@@ -9,6 +9,7 @@
     color: white;
     line-height: 18px;
     background-color: darkgreen;
+    opacity: 0.8;
     padding: 16px;
     margin: 16px;
 }
