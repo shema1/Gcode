@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 .articles {
     display: flex;
 }
 
-.articles>div {
+.articles div {
     background-color: bisque;
     height: 100px;
     width: 150px;
@@ -14,9 +18,11 @@
 }
 
 .both-scrolls {
-    overflow: scroll;
+    overflow: scroll scroll;
+    cursor: all-scroll;
 }
 
 .vertical-scroll {
     overflow: auto;
+    cursor: all-scroll;
 }
