@@ -15,6 +15,9 @@
   }
   
   .third {
-      text-decoration: green underline;
       display: inline;
+  }
+  
+  .fix {
+      text-decoration: green underline;
   }
