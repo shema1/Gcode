@@ -4,14 +4,14 @@ div>div {
     background: coral;
 }
 
-div>div:nth-child(1) {
+.test1 {
     display: none;
 }
 
-div>div:nth-child(2) {
+.test2 {
     visibility: hidden;
 }
 
-div>div:nth-child(3) {
+.test3 {
     visibility: visible;
 }
