@@ -39,4 +39,5 @@
 
 .dropdown:hover .menu-list {
     display: block;
+    color: black;
 }
