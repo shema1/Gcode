@@ -3,8 +3,8 @@
 }
 
 .dropdown {
-    display: inline-block;
     position: relative;
+    display: inline-block;
     cursor: pointer;
     color: white;
     line-height: 18px;
