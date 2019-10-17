@@ -1,3 +1,7 @@
+body {
+    display: flex;
+}
+
 .menu-list {
     padding: 0;
     margin: 0;
