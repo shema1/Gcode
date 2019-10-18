@@ -1,12 +1,19 @@
-.icon {
-    margin: 100px;
+.rectangle {
+    background-color: blueviolet;
     width: 100px;
     height: 100px;
-    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png");
-    background-position-x: 500px;
 }
 
-.icon:hover {
-    background-position-x: 500px;
-    background-position-y: 491px;
+.text {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.text::first-letter {
+    color: green;
+    font-size: 24px
+}
+
+.new {
+    color: grey
 }
