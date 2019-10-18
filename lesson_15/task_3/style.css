@@ -1,19 +1,7 @@
-.rectangle {
-    background-color: blueviolet;
-    width: 100px;
-    height: 100px;
-}
-
-.text {
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.text::first-letter {
-    color: green;
-    font-size: 24px
-}
-
-.new {
-    color: grey
+iframe {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: block;
+    width: 500px;
+    height: 400px;
 }
