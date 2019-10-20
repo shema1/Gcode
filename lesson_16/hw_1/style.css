@@ -56,7 +56,6 @@ form {
     ;
 }
 
-.form-input:invalid {
-    border-color: #ff0000;
-    border: 3px;
+.form-input:required {
+    border: 3px solid #ff0000;
 }
