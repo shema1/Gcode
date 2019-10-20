@@ -19,7 +19,8 @@ input[type="checkbox"] {
 }
 
 .checkbox {
-    padding-left: 30px;
+    padding-left: 35px;
+    margin: 16px;
     position: relative;
     font-style: 24px;
 }
