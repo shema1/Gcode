@@ -56,4 +56,5 @@ form {
 
 .form-input:required {
     border-color: #ff0000;
+    border: 3px;
 }
