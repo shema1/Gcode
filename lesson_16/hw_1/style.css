@@ -52,11 +52,11 @@ form {
     background-color: #ff7f50;
     text-transform: uppercase;
     border-radius: 4px;
-    margin-top: 20px;
+    margin-top: 15px;
     ;
 }
 
-.form-input:required {
+.form-input:invalid {
     border-color: #ff0000;
     border: 3px;
 }
