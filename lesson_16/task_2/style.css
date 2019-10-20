@@ -1,5 +1,7 @@
-.main-video {
-    margin: 200px auto;
-    display: block;
-    max-width: 100%;
+* {
+    box-sizing: border-box;
+}
+
+.form-control {
+    margin: 16px;
 }
