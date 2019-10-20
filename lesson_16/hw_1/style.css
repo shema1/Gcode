@@ -52,6 +52,8 @@ form {
     background-color: #ff7f50;
     text-transform: uppercase;
     border-radius: 4px;
+    margin-top: 20px;
+    ;
 }
 
 .form-input:required {
