@@ -10,35 +10,33 @@
 
 <body>
     <form class="test">
-        <input type="text" placeholder="HTML" readonly>
-        <input type="checkbox" disabled>
-        <input type="checkbox" checked>
-        <input type="color" value="#ff8053">
-        <input type="date" value="2021-01-02">
-        <input type="datetime-local" value="2024-10-04T13:02">
-        <input type="email" placeholder=" example@domain.com" required>
-        <input type="file">
-        <input type="month" value="2020-01">
-        <input type="number" placeholder="17">
-        <textarea rows="5" placeholder="A long time ago"></textarea>
-        <input type="password" value="secret">
-        <div class="radio">
-            <input type="radio">HTML
-
-            <input type="radio">CSS
-
-            <input type="radio">JavaScript
+        <input type="text" name="primaryLanguage" placeholder="HTML" disabled>
+        <input type="checkbox " name="agree">
+        <input type="checkbox " name="like" checked readonly>
+        <input type="color" name="favouriteColor" value="#ff8053">
+        <input type="date" name="birthDate" value="2021-01-02">
+        <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
+        <input type="email" name="email" placeholder=" example@domain.com" required>
+        <input type="file" name="avatar" required>
+        <input type="month" name="startLearning" value="2020-01">
+        <input type="number" name="favouriteNumber" value="17 ">
+        <textarea name="story" cols="30" rows="5" placeholder="A long time ago..."></textarea>
+        <input type="password" name="password" value="secret">
+        <div class="languages">
+            <label><input type="radio" value="html"> HTML</label>
+            <label><input type="radio" value="сss"> CSS</label>
+            <label><input type="radio" value="javascript"> JavaScript</label>
         </div>
-        <input type="range" value="30">
-        <select>
-            <option value="">React</option>
-            <option value="" selected>jQuery</option>
-            <option value="">Bootstrap</option>
+        <input type="range" name="learningProgress" value="30">
+        <select name="framework">
+            <option value="react">React</option>
+            <option value="jquery" selected>jQuery </option>
+            <option value="bootstrap">Bootstrap</option>
         </select>
-        <input type="search" placeholder="Type first leters...">
-        <input type="time" value="14:01">
-        <input type="url" placeholder="https://website.com" required>
-        <input type="week" value="2021-W51">
+        <input type="search" name="search" placeholder="Type first letters...">
+        <input type="time" name="lunchEnd" value="14:01">
+        <input type="url" name="website" placeholder="https://website.com" required>
+        <input type="week" name="birthWeek" value="2021-W51">
         <input type="submit" value="Save">
     </form>
 </body>
