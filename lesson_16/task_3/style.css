@@ -23,8 +23,10 @@ input[type="checkbox"] {
     margin: 16px;
     position: relative;
     font-style: 24px;
+    cursor: pointer;
 }
 
 .checkbox input:checked+.checkmark {
     background-color: #006400;
+    poi
 }
