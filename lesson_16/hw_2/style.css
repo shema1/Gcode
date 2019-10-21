@@ -4,6 +4,7 @@
 
 input {
     display: block;
+    margin-bottom: 8px;
 }
 
 .radio {
@@ -18,5 +19,5 @@ input {
 input,
 textarea,
 select {
-    margin: 16px;
+    margin-bottom: 8px;
 }
