@@ -31,7 +31,7 @@ form {
 }
 
 .form-input {
-    /* margin-bottom: 8px; */
+    margin-bottom: 8px;
     margin-top: 4px;
     width: 100%;
     height: 32px;
@@ -43,7 +43,6 @@ form {
 
 .form-label {
     /* margin-bottom: 4px; */
-    margin-top: 8px;
     width: 100%;
 }
 
