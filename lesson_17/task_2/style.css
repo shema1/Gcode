@@ -5,10 +5,11 @@
 table {
     width: 500px;
     margin: 16px;
+    border-collapse: collapse;
 }
 
 caption {
-    margin: 8px;
+    margin-bottom: 8px;
 }
 
 table,
@@ -18,14 +19,22 @@ th {
     border-collapse: collapse;
 }
 
+tr {
+    height: 40px;
+}
+
 td,
 th {
     text-align: right;
-    padding-right: 4px;
+    padding: 4px;
 }
 
 th {
     background-color: aqua;
+}
+
+div {
+    overflow-x: auto;
 }
 
 tfoot {
@@ -38,9 +47,5 @@ tbody>tr:nth-child(odd) {
 
 tbody>tr:hover {
     background-color: #aaa;
-    color: #fff;
-}
-
-div {
-    overflow-x: auto;
+    color: white;
 }
