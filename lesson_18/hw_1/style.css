@@ -1,33 +1,24 @@
-* {
-    box-sizing: border-box;
-    font-weight: normal;
+.fas.fa-battery-full {
+    font-size: 16px;
 }
 
-.chess-board td {
-    border: 1px solid;
-    /* text-align: center;
-    vertical-align: middle; */
+.fas.fa-battery-three-quarters {
+    font-size: 32px;
 }
 
-tr,
-th,
-td {
-    height: 50px;
-    width: 50px;
+.fas.fa-battery-half {
+    font-size: 64px;
 }
 
-table {
-    margin: 16px;
-    border: 1px solid #000;
-    border-collapse: collapse;
-    text-transform: uppercase;
+.fas.fa-battery-quarter {
+    font-size: 128px;
 }
 
-table tr:nth-child(even) td:nth-child(odd) {
-    background-color: #000;
-    ;
+.fas.fa-battery-empty {
+    font-size: 256px;
 }
 
-table tr:nth-child(odd) td:nth-child(even) {
-    background-color: #000;
+.battery {
+    display: flex;
+    justify-content: space-between;
 }
