@@ -1,60 +1,14 @@
-* {
-    box-sizing: border-box;
-    font-size: 16px;
-    font-family: monospace;
+.chess-board {
+    border-spacing: 0;
+    border-collapse: collapse;
 }
 
-.page {
-    display: flex;
-    justify-content: center;
-    background-color: bisque;
-    height: 100vh;
-}
+.chess-board th {}
 
-form {
-    background-color: aqua;
-    width: 300px;
-    padding: 16px;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    margin: auto;
-}
-
-.form-control {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 8px;
-}
-
-.form-title {
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
-
-.form-input {
-    width: 100%;
-    height: 32px;
-    border-radius: 4px;
-    border: 1px solid #808080;
-    outline: none;
-    padding: 4px;
-}
-
-.form-label {
-    margin-bottom: 4px;
-    width: 100%;
-}
-
-.submit-button {
-    width: 100%;
-    height: 32px;
-    color: white;
-    background-color: #ff7f50;
-    text-transform: uppercase;
-    border-radius: 4px;
-    margin-top: 16px;
-}
-
-.form-input:invalid {
-    border: 3px solid #ff0000;
+.chess-board td {
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
 }
