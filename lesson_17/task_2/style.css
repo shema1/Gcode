@@ -41,3 +41,7 @@ tbody>tr:hover {
     background-color: #aaa;
     color: #fff;
 }
+
+div {
+    overflow-x: auto;
+}
