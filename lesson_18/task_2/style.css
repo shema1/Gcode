@@ -17,6 +17,7 @@
     border: none;
     cursor: pointer;
     outline: none;
+    line-height: 50px;
 }
 
 .custom-button:hover {
