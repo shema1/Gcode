@@ -28,11 +28,10 @@ form {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+    margin-bottom: 8px;
 }
 
 .form-input {
-    margin-bottom: 8px;
-    margin-top: 4px;
     width: 100%;
     height: 32px;
     border-radius: 4px;
@@ -42,7 +41,7 @@ form {
 }
 
 .form-label {
-    /* margin-bottom: 4px; */
+    margin-bottom: 4px;
     width: 100%;
 }
 
@@ -56,6 +55,6 @@ form {
     margin-top: 16px;
 }
 
-.form-input:required {
+.form-input:invalid {
     border: 3px solid #ff0000;
 }
