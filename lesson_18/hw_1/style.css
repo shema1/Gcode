@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+.chess-board td {
+    border: 1px solid;
+    /* text-align: center;
+    vertical-align: middle; */
+}
+
+tr,
+th,
+td {
+    height: 50px;
+    width: 50px;
+}
+
+table {
+    margin: 16px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) td:nth-child(odd) {
+    background-color: #000;
+    ;
+}
+
+table tr:nth-child(odd) td:nth-child(even) {
+    background-color: #000;
+}
