@@ -22,6 +22,7 @@ form {
 .form-control {
     display: flex;
     flex-direction: column;
+    margin-bottom: 8px;
 }
 
 .form-title {
@@ -31,7 +32,6 @@ form {
 }
 
 .form-input {
-    margin-bottom: 8px;
     width: 100%;
     height: 32px;
     border-radius: 4px;
