@@ -22,6 +22,7 @@ form {
 .form-control {
     display: flex;
     flex-direction: column;
+    margin-bottom: 4px;
 }
 
 .form-title {
@@ -41,7 +42,6 @@ form {
 }
 
 .form-label {
-    margin-bottom: 4px;
     width: 100%;
 }
 
