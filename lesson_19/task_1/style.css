@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 16px;
+}
+
+.rect {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+    background-color: coral;
+    transition: width 2s, opacity 5s;
+    /* transition-duration: 1s, 5s; */
+    opacity: 0.5;
+}
+
+.rect:hover {
+    width: 100%;
+    opacity: 1;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.ease {
+    transition-timing-function: ease;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
