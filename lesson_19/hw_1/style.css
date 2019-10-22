@@ -51,5 +51,6 @@
     animation: blinking 2s, moving 2s;
     animation: moving 2s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
     position: absolute;
 }
