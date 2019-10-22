@@ -2,34 +2,38 @@
     box-sizing: border-box;
 }
 
-.custom-button {
-    height: 50px;
-    width: 200px;
-    margin: 64px;
+.square {
+    width: 100px;
+    height: 100px;
     background-color: coral;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    border-radius: 4px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    line-height: 50px;
+    position: absolute;
+    animation: move 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
 }
 
-.custom-button:hover {
-    color: darkcyan;
-}
-
-.bird-icon {
-    width: 32px;
-    height: 32px;
-    vertical-align: middle;
-    fill: white;
-}
-
-.custom-button:hover>.bird-icon {
-    fill: green;
+@keyframes move {
+    0% {
+        left: 0;
+        background-color: coral;
+    }
+    25% {
+        left: 300px;
+        top: 0;
+        background-color: aqua;
+    }
+    50% {
+        left: 300px;
+        top: 300px;
+    }
+    75% {
+        left: 0;
+        top: 300px;
+        background-color: bisque;
+    }
+    100% {
+        left: 0;
+        top: 0;
+        background-color: darkgreen;
+    }
 }
