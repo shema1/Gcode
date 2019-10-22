@@ -1,54 +1,94 @@
-                                                                                        * {
-                                                                                        box-sizing: border-box;
-                                                                                    }
-                                                                                    
-                                                                                    .container {
-                                                                                        height: 100vh;
-                                                                                        width: 100vw;
-                                                                                        display: flex;
-                                                                                        justify-content: center;
-                                                                                        align-items: center;
-                                                                                    }
-                                                                                    
-                                                                                    .spinner-text {
-                                                                                        font-size: 16px;
-                                                                                        font-family: monospace;
-                                                                                        text-transform: uppercase;
-                                                                                        animation: blinking 2s infinite linear;
-                                                                                    }
-                                                                                    
-                                                                                    .spiner {
-                                                                                        display: flex;
-                                                                                    }
-                                                                                    
-                                                                                    .circle {
-                                                                                        box-sizing: border-box;
-                                                                                        height: 50px;
-                                                                                        width: 50px;
-                                                                                        border: 4px solid lightgrey;
-                                                                                        border-top: 4px solid black;
-                                                                                        border-radius: 50%;
-                                                                                        margin: auto;
-                                                                                        margin-bottom: 8px;
-                                                                                        animation: rotate 2s linear infinite;
-                                                                                    }
-                                                                                    
-                                                                                    @keyframes blinking {
-                                                                                        0% {
-                                                                                            opacity: 0;
-                                                                                        }
-                                                                                        50% {
-                                                                                            opacity: 1;
-                                                                                        }
-                                                                                        100% {
-                                                                                            opacity: 0;
-                                                                                        }
-                                                                                    }
-                                                                                    
-                                                                                    @keyframes rotate {
-                                                                                        0% {
-                                                                                            transform: rotate(0);
-                                                                                        }
-                                                                                        100% {
-                                                                                            transform: rotate(360deg);
-                                                                                        }
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Vardana;
+    color: #555;
+    font-size: 16px;
+}
+
+.header {
+    color: white;
+    background-image: linear-gradient(60deg, red, orange);
+    text-align: center;
+}
+
+.footer {
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation,
+.section,
+.news {
+    padding: 0.5em;
+}
+
+.navigation {
+    width: 20%;
+}
+
+.section {
+    width: 60%;
+    font-size: 1.25em;
+}
+
+.news {
+    width: 20%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.25em;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.units-list {
+    line-height: 1.75em;
+}
+
+.nav-list-item {
+    display: flex;
+    height: 2em;
+    margin: 0.5em;
+    background-color: #808080;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav-list-link {
+    display: inline;
+    color: white;
+    margin: 0.5em;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
