@@ -2,51 +2,37 @@
     box-sizing: border-box;
 }
 
-body {
+.main-content {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.fancy-button {
-    width: 150px;
-    height: 50px;
-    border-radius: 4px;
-    background-image: linear-gradient(45deg, yellow, red);
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
+.gallery {
+    width: 80%;
+    background-color: #fa5;
+    display: flex;
+}
+
+.ideas {
+    width: 20%;
+    background-color: #5af;
+    display: flex;
+}
+
+.main-image {
+    max-width: 100%;
     margin: auto;
-    animation: jump 0.5s ease-in-out .4s, spin .5s ease-in-out, hide 1s ease 2s forwards;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-@keyframes jump {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-40px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes hide {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(2000px);
-    }
+.idea {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 4px;
+    color: white;
+    margin: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
