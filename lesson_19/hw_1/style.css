@@ -1,24 +1,55 @@
-.fa.fa-battery-full {
-    font-size: 16px;
+* {
+    box-sizing: border-box;
 }
 
-.fa.fa-battery-three-quarters {
-    font-size: 32px;
+@keyframes moving {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+    100% {
+        left: 70px;
+    }
 }
 
-.fa.fa-battery-half {
-    font-size: 64px;
+@keyframes blinking {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
-.fa.fa-battery-quarter {
-    font-size: 128px;
-}
-
-.fa.fa-battery-empty {
-    font-size: 256px;
-}
-
-.icon {
+.container {
     display: flex;
-    justify-content: space-around;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    position: relative;
+}
+
+.spinner-text {
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    animation: blinking 2s;
+    animation-iteration-count: infinite;
+}
+
+.rect {
+    background-color: black;
+    width: 10px;
+    height: 4px;
+    border-radius: 2px;
+    animation: blinking 2s, moving 2s;
+    animation: moving 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
 }
