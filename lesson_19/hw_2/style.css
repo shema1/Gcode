@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
+.test {
     display: flex;
     height: 100vh;
     justify-content: center;
