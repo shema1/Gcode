@@ -3,7 +3,7 @@
 }
 
 .container {
-    margin: 16px;
+    margin: 32px;
 }
 
 .rect {
@@ -13,6 +13,9 @@
     background-color: coral;
     /* transition-duration: 1s, 5s; */
     opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rect:hover {

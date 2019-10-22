@@ -17,10 +17,10 @@ body {
     width: 200px;
     height: 100px;
     background-color: coral;
-    text-align: center;
     left: 45%;
     line-height: 100px;
     position: absolute;
+    animation: moving 2s;
 }
 
 @keyframes moving {
@@ -28,6 +28,6 @@ body {
         top: -100px;
     }
     100% {
-        left: 70px;
+        top: 45vh;
     }
 }
