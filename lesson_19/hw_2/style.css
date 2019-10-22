@@ -19,10 +19,9 @@ body {
     height: 100px;
     border-radius: 10px;
     background-color: coral;
-    left: 45%;
     line-height: 100px;
     position: absolute;
-    animation: moving 2s;
+    animation: moving 2s ease;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +32,6 @@ body {
         top: -100px;
     }
     100% {
-        top: 45vh;
+        top: calc(50vh - 50px);
     }
 }
