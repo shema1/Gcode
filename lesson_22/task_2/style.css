@@ -2,37 +2,43 @@
     box-sizing: border-box;
 }
 
-.main-content {
+.navigation {
+    background-color: #ff7f50;
+    min-height: 200px;
     display: flex;
-    min-height: 100vh;
+    flex-grow: 1;
 }
 
-.gallery {
-    width: 80%;
-    background-color: #fa5;
+.products-list {
+    background-color: #006400;
+    min-height: 200px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.news {
+    background-color: #0ff;
+    min-height: 200px;
     display: flex;
 }
 
-.ideas {
-    width: 20%;
-    background-color: #5af;
-    display: flex;
-}
-
-.main-image {
-    max-width: 100%;
-    margin: auto;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.idea {
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: bold;
+span {
+    background-color: beige;
     padding: 4px;
-    color: white;
+    border-radius: 4px;
+    text-transform: lowercase;
     margin: auto;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+}
+
+@media screen and (min-width:600px) {
+    .products {
+        display: flex;
+        flex-grow: 2;
+    }
+}
+
+@media screen and (min-width:900) {
+    .content {
+        display: flex;
+    }
 }
