@@ -10,11 +10,19 @@ body {
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    @include for-test {
+        flex-direction: row;
+    }
+}
+
 .square {
     width: 100px;
     height: 100px;
     background-color: #ff7f50;
-    padding: 8px;
+    margin: 16px;
     @include for-medium-up {
         background-color: #8a2be2;
     }
