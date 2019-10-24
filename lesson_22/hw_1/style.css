@@ -20,8 +20,8 @@ html {
     outline: none;
     background: none;
     cursor: pointer;
-    padding-top: 0;
-    padding-bottom: 0.5em;
+    padding-top: 6px;
+    /* padding-bottom: 0.5em; */
     font-size: 2em;
 }
 
