@@ -55,7 +55,10 @@ nav {
         height: 100%;
     }
     &__item:hover {
-        color: #9acd32;
         background-color: #9acd32;
     }
+}
+
+.menu__item_active span {
+    color: yellow;
 }
