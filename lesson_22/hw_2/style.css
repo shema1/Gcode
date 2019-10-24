@@ -73,7 +73,7 @@ html {
 .nav-list-item {
     display: flex;
     height: 2em;
-    margin: 0.5em;
+    margin: 0.5em 0;
     background-color: #808080;
     align-items: center;
 }
