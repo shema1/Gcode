@@ -43,10 +43,4 @@ span {
     .content {
         display: flex;
     }
-    .products {
-        width: 66%;
-    }
-    .news {
-        width: 33%;
-    }
 }
