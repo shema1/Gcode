@@ -29,6 +29,7 @@ nav {
     z-index: 1;
     &__item {
         padding: 8px;
+        display: none;
     }
     &__item:hover {
         color: #000;
@@ -44,6 +45,7 @@ nav {
     height: 100%;
     &__item {
         margin: 0 8px;
+        padding: 0 8px;
         cursor: pointer;
         position: relative;
     }
@@ -53,6 +55,7 @@ nav {
         height: 100%;
     }
     &__item:hover {
+        color: #9acd32;
         background-color: #9acd32;
     }
 }
